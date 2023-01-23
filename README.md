@@ -11,7 +11,7 @@
   - [05: Bash-Shell](docs/01-Arbeiten-mit-der-Shell-Teil-1/05-Bash-Shell.md)
   - [06: Lab Linux Bash-Shell](docs/01-Arbeiten-mit-der-Shell-Teil-1/06-Lab-Linux-Bash-Shell.md)
 
-- [02: Linux-Core-Konzepte](docs/02-Linux-Core-Konzepte)
+- 02: Linux-Core-Konzepte
 
   - [01: Der Linux-Kernel](docs/02-Linux-Core-Konzepte/01-Der-Linux-Kernel.md)
   - [02: Arbeiten mit der Hardware](docs/02-Linux-Core-Konzepte/02-Arbeiten-mit-der-Hardware.md)
