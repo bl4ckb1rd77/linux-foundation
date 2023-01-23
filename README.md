@@ -2,7 +2,7 @@
 
 # Inhaltsverzeichniss
 
-- 01-Arbeiten mit der Shell Teil 1
+- 01: Arbeiten mit der Shell Teil 1
 
   - [01: Einführung in die Shell](docs/01-Arbeiten-mit-der-Shell-Teil-1/01-Einführung-in-die-Shell.md)
   - [02: Grundlegende Linux-Befehle](docs/01-Arbeiten-mit-der-Shell-Teil-1/02-Basis-Befehle.md)
@@ -11,17 +11,16 @@
   - [05: Bash-Shell](docs/01-Arbeiten-mit-der-Shell-Teil-1/05-Bash-Shell.md)
   - [06: Lab Linux Bash-Shell](docs/01-Arbeiten-mit-der-Shell-Teil-1/06-Lab-Linux-Bash-Shell.md)
 
-- [02-Linux-Core-Concepts](docs/03-Linux-Core-Concepts)
+- [02: Linux-Core-Konzepte](docs/02-Linux-Core-Konzepte)
 
-  - [01-Bobs-First-Team-Meeting](docs/03-Linux-Core-Concepts/01-Bobs-first-team-meeting.md)
-  - [02-The-Linux-Kernel](docs/03-Linux-Core-Concepts/02-The-Linux-Kernel.md)
-  - [03-Working-With-Hardware](docs/03-Linux-Core-Concepts/03-Working-with-hardware.md)
-  - [04-Lab-Linux-Kernel](docs/03-Linux-Core-Concepts/04-Lab-Linux-Kernel.md)
-  - [05-Linux-Boot-Sequence](docs/03-Linux-Core-Concepts/05-Linux-Boot-Sequence.md)
-  - [06-Run-Levels](docs/03-Linux-Core-Concepts/06-Run-Levels.md)
-  - [07-File-Types](docs/03-Linux-Core-Concepts/07-File-Types.md)
-  - [08-Filesystem-Hierarchy](docs/03-Linux-Core-Concepts/08-Filesystem-Hierarchy.md)
-  - [09-Lab-Linux-RunLevels-Filesystem-Hierarchy](docs/03-Linux-Core-Concepts/09-Lab-Linux-RunLevels-Filesystem-Hierarchy.md)
+  - [01: Der Linux-Kernel](docs/02-Linux-Core-Konzepte/01-Der-Linux-Kernel.md)
+  - [02: Arbeiten mit der Hardware](docs/02-Linux-Core-Konzepte/02-Arbeiten-mit-der-Hardware.md)
+  - [03: Lab Linux-Kernel](docs/02-Linux-Core-Konzepte/03-Lab-Linux-Kernel.md)
+  - [04: Linux Boot Sequenz](docs/02-Linux-Core-Konzepte/04-Linux-Boot-Sequenz.md)
+  - [05: Runlevels](docs/02-Linux-Core-Konzepte/05-Runlevels.md)
+  - [06: Filetypen](docs/02-Linux-Core-Konzepte/06-Filetypen.md)
+  - [07: Filesystem Hierarchie](docs/02-Linux-Core-Konzepte/08-Filesystem-Hierarchie.md)
+  - [08: Lab-Linux-RunLevels-Filesystem-Hierarchie](docs/02-Linux-Core-Konzepte/08-Lab-Linux-RunLevels-Filesystem-Hierarchie.md)
 
 
 - [03-Package-Mangement](docs/04-Package-Mangement)
