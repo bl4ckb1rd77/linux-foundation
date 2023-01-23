@@ -64,7 +64,7 @@
 
 Befehlstypen in Linux können allgemein in zwei Typen eingeteilt werden
   1. Interne oder eingebaute Befehle
-     - Interne Befehle sind Teil der Shell selbst. Es wird mitgeliefert, es gibt insgesamt etwa 30 solcher Befehle
+     - Interne Befehle sind Teil der Shell selbst und werden mit dieser mitgeliefert, es gibt insgesamt etwa 30 solcher Befehle.
      - **`Zum Beispiel`**: echo, cd, pwd, set usw.
   1. Externe Befehle
      - Externe Befehle hingegen sind binäre Programme oder Skripte, die sich normalerweise in verschiedenen Dateien im System befinden. Sie werden entweder mit dem Paketmanager der Distribution vorinstalliert oder können vom Benutzer erstellt oder installiert werden
@@ -72,4 +72,12 @@ Befehlstypen in Linux können allgemein in zwei Typen eingeteilt werden
 
 Um festzustellen, ob ein Befehl intern oder extern ist, verwenden Sie den Befehl **`type`**
 
-![Command-Types](../../images/Command-Types.PNG)
+```
+[~]$ type echo
+echo us a shell built-in
+```
+
+```
+[~]$ type uptime
+uptime is (/bin/uptime)
+```
