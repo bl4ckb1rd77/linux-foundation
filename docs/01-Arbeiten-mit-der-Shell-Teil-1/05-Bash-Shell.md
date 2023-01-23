@@ -105,7 +105,7 @@ Sobald Sie sich in die Shell einloggen, ist die Zeile, die Sie sehen, die Bash-E
 ```bash
 [~]$
 ```
-`~ = Aktuelles Arbeitsverzeichniss`
+`~ = Aktuelles Arbeitsverzeichniss`\\\
 `$ = User Prompt Symbol`
 
 Es kann angepasst werden, um den **`username`** und den **`hostname`** anzuzeigen
@@ -119,7 +119,7 @@ Es kann angepasst werden, um den **`username`** und den **`hostname`** anzuzeige
 [~]$ echo $PS1
 [\W]$
 ```
-`\W = Aktuelles Arbeitsverzeichniss = ~`
+`\W = Aktuelles Arbeitsverzeichniss = ~`\\\
 `$ = User Prompt Symbol`
 
 Geben Sie **`echo $PS1`** ein, um den **`PS1`** zugewiesenen Wert anzuzeigen
