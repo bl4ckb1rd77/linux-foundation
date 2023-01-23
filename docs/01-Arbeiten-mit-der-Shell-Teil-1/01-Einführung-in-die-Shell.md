@@ -15,7 +15,7 @@
 
 #### The Home Directory
 
-![Das Home Verzeichniss](../../images/The_Home_Directory.JPG)
+<img src="https://github.com/m4st3r-bl4ckb1rd/linux-foundation/blob/master/images/The_Home_Directory.JPG">
 
 - Ein Benutzer-**`michael`**-Home-Verzeichnis, erstellt unter **`/home/michael`**, wobei **`/home`** ein vom System erstelltes Home-Verzeichnis ist, das die Home-Verzeichnisse für fast alle Benutzer des Linux-Systems enthält.
 - Der Name des Heimatverzeichnisses ist standardmäßig identisch mit dem Namen des Benutzers, daher ist das Homeverzeichnis von **`michael`** **`/home/michael`**.
