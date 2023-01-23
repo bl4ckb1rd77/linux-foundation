@@ -1,21 +1,17 @@
-# The Linux Basics Course
+# Der Linux Basics Kurs
 
-These are notes from the [Linux Basics Course](https://bit.ly/3gGnxm0) hosted on KodeKloud.
+# Inhaltsverzeichniss
 
-# Table of Contents
+- 01-Arbeiten mit der Shell Teil 1
 
-- [01-Introduction](docs/01-Introduction)
+  - [01: Einführung in die Shell](docs/01-Arbeiten-mit-der-Shell-Teil-1/01-Einführung-in-die-Shell.md)
+  - [02: Grundlegende Linux-Befehle](docs/01-Arbeiten-mit-der-Shell-Teil-1/02-Basis-Befehle.md)
+  - [03: Verwenden der Befehlszeile, um Hilfe zu erhalten](docs/01-Arbeiten-mit-der-Shell-Teil-1/03-Command-Line-Help.md)
+  - [04: Lab Arbeiten mit der Shell](docs/01-Arbeiten-mit-der-Shell-Teil-1/04-lab-working-with-shell.md)
+  - [05: Bash-Shell](docs/01-Arbeiten-mit-der-Shell-Teil-1/05-Bash-Shell.md)
+  - [06: Lab Linux Bash-Shell](docs/01-Arbeiten-mit-der-Shell-Teil-1/06-Lab-Linux-Bash-Shell.md)
 
-- [02-Working-With-Shell-Part-I](docs/02-Working-With-Shell-Part-I)
-
-  - [01-Introduction-to-Shell](docs/02-Working-With-Shell-Part-I/01-Introduction-to-Shell.md)
-  - [02-Basic-Commands](docs/02-Working-With-Shell-Part-I/02-Basic-Commands.md)
-  - [03-Command-Line-Help](docs/02-Working-With-Shell-Part-I/03-Command-Line-Help.md)
-  - [04-Lab-Working-With-Shell](docs/02-Working-With-Shell-Part-I/04-lab-working-with-shell.md)
-  - [05-Bash-Shell](docs/02-Working-With-Shell-Part-I/05-Bash-Shell.md)
-  - [06-Lab-Linux-Bash-Shell](docs/02-Working-With-Shell-Part-I/06-Lab-Linux-Bash-Shell.md)
-  
-- [03-Linux-Core-Concepts](docs/03-Linux-Core-Concepts)
+- [02-Linux-Core-Concepts](docs/03-Linux-Core-Concepts)
 
   - [01-Bobs-First-Team-Meeting](docs/03-Linux-Core-Concepts/01-Bobs-first-team-meeting.md)
   - [02-The-Linux-Kernel](docs/03-Linux-Core-Concepts/02-The-Linux-Kernel.md)
@@ -28,7 +24,7 @@ These are notes from the [Linux Basics Course](https://bit.ly/3gGnxm0) hosted on
   - [09-Lab-Linux-RunLevels-Filesystem-Hierarchy](docs/03-Linux-Core-Concepts/09-Lab-Linux-RunLevels-Filesystem-Hierarchy.md)
 
 
-- [04-Package-Mangement](docs/04-Package-Mangement)
+- [03-Package-Mangement](docs/04-Package-Mangement)
 
   - [01-Package-Management-Distribution](docs/04-Package-Mangement/01-Package-Management-Distribution.md)
   - [02-RPM-and-YUM](docs/04-Package-Mangement/02-RPM-and-YUM.md)
