@@ -72,12 +72,12 @@ Befehlstypen in Linux können allgemein in zwei Typen eingeteilt werden
 
 Um festzustellen, ob ein Befehl intern oder extern ist, verwenden Sie den Befehl **`type`**
 
-```
+```bash
 [~]$ type echo
 echo us a shell built-in
 ```
 
-```
+```bash
 [~]$ type uptime
 uptime is (/bin/uptime)
 ```
