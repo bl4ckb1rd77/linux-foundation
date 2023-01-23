@@ -1,74 +1,62 @@
-# Linux Core Concepts
-
-- Take me to the [Video Tutorial](https://kodekloud.com/topic/linux-kernel/)
-
-In this section, we will take a look at the core concepts of a linux operating system.
-- We will start with introduction to the linux kernel.
-- We will then learn about the kernel space and user space.
+# Linux Core Konzepte
 
 ## Linux Kernel
 
-#### If you have worked with any operating system, you have run into the term kernel. 
+#### Wenn Sie mit irgendeinem Betriebssystem gearbeitet haben, ist Ihnen der Begriff Kernel begegnet.
 
-- The Linux kernel is monolithic, this means that the kernel carrries out CPU scheduling, memory management and several operations by itselfs. 
-- The Linux Kernel is also modular, which means it can extends its capabilities through the use of dynamically loaded kernel modules
+- Der Linux-Kernel ist monolithisch, das heißt, der Kernel führt CPU-Scheduling, Speicherverwaltung und verschiedene Operationen selbst durch.
+- Der Linux-Kernel ist ebenfalls modular, was bedeutet, dass er seine Fähigkeiten durch die Verwendung dynamisch geladener Kernel-Module erweitern kann
 
-  ![linux-kernel](../../images/linux-kernel.PNG)
+   ![linux-kernel](../../images/linux-kernel.PNG)
 
-#### To understand a kernel in simple terms, let us use an analogy of a **`College Library`**. Here the librarian is equal to Linux Kernel.
+#### Der Kernel ist für 4 Hauptaufgaben verantwortlich
 
-![library](../../images/library.PNG)
+1. Speicherverwaltung
+1. Prozessmanagement
+1. Gerätetreiber
+1. Systemaufrufe und Sicherheit
 
-#### The Kernel is responsible for 4 major tasks
+## Linux-Kernel-Versionen
 
-1. Memory Management
-1. Process Management
-1. Device Drivers
-1. System calls and Security
+#### Lassen Sie uns wissen, wie Sie Linux-Kernel-Versionen identifizieren können
 
-## Linux Kernel Versions
-
-#### let us know identify the ways to identify linux kernel versions
-
-Use **`uname`** command to get the information about the kernel (by itself it doesn't provide much information except that the system uses the **`Linux`** Kernel.
+Verwenden Sie den **`uname`**-Befehl, um Informationen über den Kernel zu erhalten (an sich liefert er nicht viele Informationen, außer dass das System den **`Linux`**-Kernel verwendet.
 ```
 $ uname
 ```
 
-Use the **`uname -r`** or **`uname`** comamnd and option to print the kernel version
+Verwenden Sie den **`uname -r`** oder **`uname`** Befehl und die Option, um die Kernel-Version zu drucken
 ```
 $ uname -r
 $ uname -a
 ```
    ![kernel-versions](../../images/kernel-versions.PNG)
 
-## Kernel and User Space
+## Kernel und Benutzerbereich
 
-#### One of the important functions of the linux kernel is the **`Memory Management`** . We will now see how memory is seperated within the linux kernel
+#### Eine der wichtigsten Funktionen des Linux-Kernels ist die **`Speicherverwaltung`** . Wir werden nun sehen, wie der Speicher innerhalb des Linux-Kernels getrennt wird
 
-Memory is divded into two areas.
-1. Kernel Space
-   1. Kernel Code
-   1. kernel Extensions
-   1. Device Drivers
-1. User Space
-   1. C
-   1. Java
-   1. Python
-   1. Ruby e.t.c
-   1. Docker Containers
-   
+Das Gedächtnis ist in zwei Bereiche unterteilt.
+1. Kernel-Space
+    1. Kernel-Code
+    1. Kernel-Erweiterungen
+    1. Gerätetreiber
+1. Benutzerbereich
+    1. C
+    1. Java
+    1. Python
+    1. Rubin usw
+    1. Docker-Container
+
 ![memory-management](../../images/memory-management.PNG)
 
-#### Let us know see how programs running in the `User Space` work
+#### Lassen Sie uns wissen, wie Programme, die im `User Space` laufen, funktionieren
 
-All user programs function by manipulating data that is stored in memory and on disk. User programs get access to data by making special request to the kernel called **`System Calls`**
-- Examples include, allocating memory by using variables or opening a file.
+Alle Benutzerprogramme funktionieren, indem sie Daten manipulieren, die im Speicher und auf der Festplatte gespeichert sind. Benutzerprogramme erhalten Zugriff auf Daten, indem sie eine spezielle Anfrage an den Kernel namens **`System Calls`** stellen.
+- Beispiele hierfür sind das Zuweisen von Speicher mithilfe von Variablen oder das Öffnen einer Datei.
 
   ![user-space](../../images/user-space.PNG)
 
-- For example, opening a file such as the **`/etc/os-release`** to see the operating system installed, results in a **`system call`**
+- Wenn Sie beispielsweise eine Datei wie **`/etc/os-release`** öffnen, um das installierte Betriebssystem anzuzeigen, führt dies zu einem **`Systemaufruf`**
 
-  ![user-space1](../../images/user-space1.PNG)
-
-
+   ![user-space1](../../images/user-space1.PNG)
