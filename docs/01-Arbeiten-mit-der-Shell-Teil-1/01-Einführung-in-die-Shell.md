@@ -2,7 +2,7 @@
 
 #### Linux Shell
 
-<img src="https://github.com/m4st3r-bl4ckb1rd/linux-foundation/blob/master/images/Shell.png">
+<img src="https://github.com/m4st3r-bl4ckb1rd/linux-foundation/blob/master/images/Shell.PNG">
 
 - Die Befehlszeilenschnittstelle (CLI) ermöglicht es Ihnen, effektiv auf Linux-Laptops/-Servern/virtuellen Maschinen zu arbeiten.
 - Während die grafische Version für die Benutzer ansprechender erscheinen mag, kann sie im Falle der Funktionalität eingeschränkt sein. Hier glänzt die allgemein als **`Linux Shell`** bekannte Linux-Befehlszeile.
