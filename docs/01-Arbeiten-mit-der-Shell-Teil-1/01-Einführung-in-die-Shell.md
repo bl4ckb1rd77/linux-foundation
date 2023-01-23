@@ -1,6 +1,6 @@
 # Arbeiten mit der Shell - Teil 1
 
-#### Linux shell
+#### Linux Shell
 
 ![Shell](../../images/Shell.PNG)
 
