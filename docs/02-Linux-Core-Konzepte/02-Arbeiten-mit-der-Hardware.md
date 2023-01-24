@@ -10,7 +10,7 @@ Nehmen wir ein Beispiel für **`USB Disk`**, das im System verwendet wird.
 - Der Dienst **`udev`** ist dann für die dynamische Erstellung eines Geräteknotens verantwortlich, der dem neu angeschlossenen USB-Laufwerk im Dateisystem **`/dev/`** zugeordnet ist.
 - Sobald der Vorgang abgeschlossen ist, sollte die neu angeschlossene Festplatte im Dateisystem **`/dev/`** sichtbar sein.
 
-![arbeiten-mit-hardware](../../images/Working-with-hardware.PNG)
+![arbeiten-mit-hardware](../../images/working-with-hardware.PNG)
 
 Verwenden Sie **`dmesg`**, um Nachrichten aus dem Bereich des Kernels namens **`Ring Buffer`** anzuzeigen. Beim Hochfahren eines Linux-Betriebssystems wurden zahlreiche vom Kernel generierte Meldungen auf dem Bildschirm angezeigt. Diese Nachrichten enthalten auch Protokolle von den Hardwaregeräten, die der Kernel erkennt, und geben einen guten Hinweis darauf, ob er in der Lage ist, ihn zu konfigurieren
 ```
