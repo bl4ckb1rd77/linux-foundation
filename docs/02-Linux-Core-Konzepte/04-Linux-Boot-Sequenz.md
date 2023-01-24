@@ -7,7 +7,7 @@ In diesem Abschnitt betrachten wir den Bootvorgang vereinfacht, indem wir ihn in
    1. Kernel-Initialisierung
    1. INIT-Prozess
 
-   ![boot-sequenz](../../images/boot-sequenz.PNG)
+   ![boot-sequenz](../../images/boot-sequence.PNG)
 
   #### Wie starte ich einen Linux-Startvorgang?
    - Dies kann auf eine der beiden Arten erreicht werden.
