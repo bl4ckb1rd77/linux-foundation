@@ -29,7 +29,7 @@ In diesem Abschnitt betrachten wir den Bootvorgang vereinfacht, indem wir ihn in
   - Sobald die Auswahl auf dem Boot-Bildschirm getroffen wurde, lädt der Boot-Lader den Kernel in den Speicher, versorgt ihn mit einigen Parametern und übergibt die Kontrolle an den Kernel
   - Ein beliebtes Beispiel für den Bootloader ist **`GRUB2`** (GRand Unified Bootloader Version 2). Es ist jetzt ein primärer Bootloader für die meisten Betriebssysteme.
 
-  ![Bootloader](../../images/bootloader.PNG)
+  ![Bootloader](../../images/boot-loader.PNG)
 
   #### Kernel-Initialisierung
   - Nachdem der Kernel ausgewählt und in den Speicher geladen wurde, wird dieser normalerweise dekomprimiert und dann in den Speicher geladen.
