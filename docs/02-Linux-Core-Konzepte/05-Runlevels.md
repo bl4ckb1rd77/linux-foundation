@@ -1,42 +1,38 @@
-# Run Levels
+# Run-Levels
 
-- Take me to the [Video Tutorial](https://kodekloud.com/topic/runlevels/)
+## Systemd-Ziele (Runlevels)
 
-## Systemd Targets (Run Levels)
+Wir können den Server so einrichten, dass er entweder im grafischen Modus oder im nicht-grafischen Modus startet. Linux kann in mehreren Modi laufen und diese Modi werden durch etwas namens **`Runlevel`** festgelegt
+- Der Betriebsmodus, der eine grafische Oberfläche bietet, heißt **`Runlevel 5`**
+- Der Betriebsmodus, der einen nicht-grafischen Modus bietet, heißt **`Runlevel 3`**
 
-We can setup the server to boot either into graphical mode or non-graphical mode. Linux can run in multiple modes and these modes are set by something called **`runlevel`**
-- The operation mode which provide a graphical interface is called **`runlevel 5`**
-- The operation mode which provide a non-graphical mode is called **`runlevel 3`**
+    ![runlevels](../../images/run-levels.PNG)
 
-   ![run-levels](../../images/run-levels.PNG)
-
-To see the operation mode run in the system. Run the command **`runlevel`** from the terminal
+Um den im System ausgeführten Betriebsmodus anzuzeigen. Führen Sie im Terminal den Befehl **`runlevel`** aus
 ```
 $ runlevel
 ```
 
-During boot, the **`init`** process checks the **`runlevel`**, it make sure that all programs need to get the system operation in that mode are started.
-  - For example: The **`Graphical User`** mode requires a **`display manager`** service to run for the GUI to work, however this service is not required for the **`non-graphical mode`**
+Während des Bootens überprüft der **`init`**-Prozess den **`Runlevel`**, er stellt sicher, dass alle Programme, die den Systembetrieb in diesem Modus erhalten müssen, gestartet werden.
+   - Zum Beispiel: Der **`Graphical User`**-Modus erfordert einen **`Display Manager`**-Dienst, damit die GUI funktioniert, aber dieser Dienst ist für den **`non-graphical mode`* nicht erforderlich *
 
-    ![run-levels1](../../images/run-levels1.PNG)
+     ![run-levels1](../../images/run-levels1.PNG)
 
-In the boot process section, we saw that the **`systemd`** is used as the **`init`** process in most new linux distributions suchs as **`Ubuntu 18.04`**.
-- In **`systemd`**, runlevels are called as **`targets`**.
-  - The RunLevel 5 is called as the **`graphical target`** 
-  - The Runlevel 3 is called as the **`multiuser target`**
-  
-    ![run-levels2](../../images/run-levels2.PNG)
+Im Abschnitt zum Bootvorgang haben wir gesehen, dass **`systemd`** in den meisten neuen Linux-Distributionen wie **`Ubuntu 18.04`** als **`init`**-Prozess verwendet wird.
+- In **`systemd`** werden Runlevels als **`Ziele`** aufgerufen.
+   - Der RunLevel 5 wird als **`graphical Ziel`** aufgerufen
+   - Der Runlevel 3 wird als **`multiuser target`** aufgerufen
 
-#### Now that we are familiar with runlevels in systemd target unit. Lets now take a look at how we change these values from a shell.
+     ![run-levels2](../../images/run-levels2.PNG)
 
-To see the default target, run the command **`systemctl get-default`**. This command looks at the file located at **`/etc/systemd/system/default.target`** 
+#### Nun, da wir mit Runlevels in der Systemd-Zieleinheit vertraut sind. Schauen wir uns nun an, wie wir diese Werte von einer Shell aus ändern.
+
+Um das Standardziel anzuzeigen, führen Sie den Befehl **`systemctl get-default`** aus. Dieser Befehl sieht sich die Datei an, die sich unter **`/etc/systemd/system/default.target`** befindet.
 ```
 $ systemctl get-default
 ```
 
-To change the default target, we can make use of **`systemctl set-target <desired target name goes here as an argument>`**
+Um das Standardziel zu ändern, können wir **`systemctl set-target <gewünschter Zielname geht hier als Argument>`** verwenden.
 ```
-$ systemctl set-default multi-user.target 
+$ systemctl set-default multi-user.target
 ```
-
-
