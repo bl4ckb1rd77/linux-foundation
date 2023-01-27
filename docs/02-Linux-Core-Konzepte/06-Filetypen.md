@@ -9,7 +9,7 @@ Es gibt drei Arten von Dateien.
 1. Verzeichnis
 1. Spezielle Dateien
 
-![Dateitypen](../../images/Dateitypen.PNG)
+![Dateitypen](../../images/file-types.PNG)
 
 **`Spezielle Dateien`** werden wiederum in fünf andere Dateitypen kategorisiert.
 1. Character Files
@@ -28,7 +28,7 @@ Es gibt drei Arten von Dateien.
 1. Named Pipes
     - Named Pipes ist ein spezieller Dateityp, der es ermöglicht, einen Prozess als Eingabe für einen anderen zu verbinden
 
-      ![Dateitypen1](../../images/Dateitypen1.PNG)
+      ![Dateitypen1](../../images/file-types1.PNG)
 
 #### Sehen wir uns nun an, wie man unter Linux verschiedene Dateitypen erkennt.
 
@@ -45,4 +45,4 @@ Eine andere Möglichkeit, einen Dateityp zu identifizieren, ist die Verwendung d
 ls -ld /home/michael
 ls -l bash-script.sh
 ```
-    ![Dateitypen2](../../images/Dateitypen2.PNG)
+    ![Dateitypen2](../../images/file-types2.PNG)
