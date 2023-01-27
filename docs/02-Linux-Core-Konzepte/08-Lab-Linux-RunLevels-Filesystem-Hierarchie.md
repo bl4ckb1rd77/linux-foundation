@@ -1,54 +1,47 @@
-# Lab - Linux Runlevels and Filesystem Hierarchy 
-     
-- Access Hands-On Labs here [Hands-On Labs](https://kodekloud.com/topic/lab-linux-kernel-modules-boot-and-filetypes/)
+# Lab - Linux Runlevels und Dateisystemhierarchie
 
-To run commands that need **`sudo`**(super-user) privilages. Run **`sudo`**
+Zum Ausführen von Befehlen, die **`sudo`**(Superuser)-Berechtigungen benötigen. Führen Sie **`sudo`** aus
 ```
 $ sudo ls /root
 ```
 
-To check the **`init process`** (systemd or sysV) used by the system
+Um den vom System verwendeten **`Init-Prozess`** (systemd oder sysV) zu überprüfen
 ```
 $ sudo ls -l /sbin/init
 ```
 
-To check **`default systemd target`** (eg. graphical.target or multi-user.target) set in the system
+Um das im System festgelegte **`standardmäßige systemd-Ziel`** (z. B. graphic.target oder multi-user.target) zu überprüfen
 ```
 $ sudo systemctl get-default
 ```
 
-To change the systemd target to **`multi-user.target`**
+So ändern Sie das systemd-Ziel in **`multi-user.target`**
 ```
 $ sudo systemctl set-default multi-user.target
 ```
 
-To check what type of file is **`firefox.deb`** which is located at /root
+Um zu überprüfen, welcher Dateityp **`firefox.deb`** ist, der sich unter /root befindet
 ```
-$ sudo file /root/firefox.deb
-```
-
-To check what type of file is **`sample_script.sh`** which is located at /root
-```
-$ sudo file /root/sample_script.sh
+$ sudo-Datei /root/firefox.deb
 ```
 
-You were asked to install a new **`third-party IDE`** in the system. Which directory  is the recommended choice for the installation?
+Um zu überprüfen, welcher Dateityp **`sample_script.sh`** ist, das sich unter /root befindet
 ```
-Third-party software is usually installed under **`/opt`**
-```
-
-Which directory contains the files related to the block devices that can be seen when running the **`lsblk`** command?
-```
-Block Device or Device Node files are located under **`/dev`** directory
+$ sudo-Datei /root/sample_script.sh
 ```
 
-What is the name of the **`vendor`** for the **`Ethernet Controller`** used in this system?
+Sie wurden aufgefordert, eine neue **`Drittanbieter-IDE`** im System zu installieren. Welches Verzeichnis ist die empfohlene Wahl für die Installation?
 ```
-Use: sudo lshw and lookup the vendor for Ethernet Controller under the network section.   
-     $ sudo lshw
+Software von Drittanbietern wird normalerweise unter **`/opt`** installiert
 ```
 
+Welches Verzeichnis enthält die Dateien, die sich auf die Blockgeräte beziehen, die beim Ausführen des Befehls **`lsblk`** angezeigt werden?
+```
+Block Device- oder Device Node-Dateien befinden sich im Verzeichnis **`/dev`**
+```
 
-
-
-
+Wie lautet der Name des **`Anbieters`** für den **`Ethernet-Controller`**, der in diesem System verwendet wird?
+```
+Verwenden Sie: sudo lshw und suchen Sie den Anbieter für den Ethernet-Controller im Netzwerkabschnitt.
+$ sudo lshw
+```
