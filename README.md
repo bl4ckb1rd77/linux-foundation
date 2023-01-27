@@ -22,7 +22,7 @@
   - [07: Filesystem Hierarchie](docs/02-Linux-Core-Konzepte/08-Filesystem-Hierarchie.md)
   - [08: Lab-Linux-RunLevels-Filesystem-Hierarchie](docs/02-Linux-Core-Konzepte/08-Lab-Linux-RunLevels-Filesystem-Hierarchie.md)
 
-
+<!--
 - [03-Package-Mangement](docs/04-Package-Mangement)
 
   - [01-Package-Management-Distribution](docs/04-Package-Mangement/01-Package-Management-Distribution.md)
@@ -81,3 +81,5 @@
   - [01-Client-Demonstration-in-Jeopardy!(story)](docs/10-The-Client-Demonstration/01-Client-Demonstration-in-Jeopardy!(story).md)
   - [02-Troubleshoot-the-Development-Environment](docs/10-The-Client-Demonstration/02-Troubleshoot-the-Development-Environment.md)
   - [03-Finale(story)](docs/10-The-Client-Demonstration/03-Finale(story).md)
+
+-->
