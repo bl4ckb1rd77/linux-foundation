@@ -22,12 +22,12 @@ $ sudo systemctl set-default multi-user.target
 
 Um zu überprüfen, welcher Dateityp **`firefox.deb`** ist, der sich unter /root befindet
 ```
-$ sudo-Datei /root/firefox.deb
+$ sudo file /root/firefox.deb
 ```
 
 Um zu überprüfen, welcher Dateityp **`sample_script.sh`** ist, das sich unter /root befindet
 ```
-$ sudo-Datei /root/sample_script.sh
+$ sudo file /root/sample_script.sh
 ```
 
 Sie wurden aufgefordert, eine neue **`Drittanbieter-IDE`** im System zu installieren. Welches Verzeichnis ist die empfohlene Wahl für die Installation?
