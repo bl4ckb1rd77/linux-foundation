@@ -14,7 +14,7 @@ In diesem Abschnitt werfen wir einen Blick auf die **`Dateisystemhierarchie`**
    - **`/usr`** : In älteren Systemen wird das Verzeichnis **`/usr`** für **`User Home Directories`** verwendet, in den modernen Linux-Betriebssystemen ist es jedoch der Ort, an dem alle Benutzeranwendungen, Dokumentationen und andere geteilte Daten.
    - **`/var`** : Enthält variable Daten wie Mails, Protokolldateien
 
-       ![Dateisystem](../../images/Dateisystem.PNG)
+       ![Dateisystem](../../images/filesystem.PNG)
 
   Um alle gemounteten Dateisysteme zu drucken, führen Sie den Befehl **`df`** (Disk Filesystem) aus
   ```
