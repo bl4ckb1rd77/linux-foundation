@@ -1,3 +1,5 @@
+[HOME](../../README.md) | 01: Arbeiten mit der Shell - Teil 1 | 04: Lab - Arbeiten mit der Shell
+---
 # Lab - Arbeiten mit der Shell
 
 1. Um das Home-Verzeichnis für einen bestimmten Benutzer zu überprüfen, sagen Wir für **`bob`**
@@ -47,3 +49,5 @@
     ```
     $ rm -r /home/bob/reptil
     ```
+---
+[BACK](./03-Command-Line-Help.md) | [NEXT](./05-Bash-Shell.md)

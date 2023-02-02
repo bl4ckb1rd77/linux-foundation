@@ -1,3 +1,5 @@
+[HOME](../../README.md) | 01: Arbeiten mit der Shell - Teil 1 | 06: Lab - Linux-Bash-Shell
+---
 # Lab - Linux-Bash-Shell
 
 1. So überprüfen Sie die Standard-Shell für den aktuellen Benutzer. Zeigen Sie die Shell für den aktuellen Benutzer an, aber nicht unbedingt die Shell, die aktuell ausgeführt wird.
@@ -32,3 +34,5 @@ Stellen Sie sicher, dass die Änderung dauerhaft vorgenommen wird.
     oder
     echo 'PS1=[\d]\u@\h:\w$' >> ~/.profile
     ```
+---
+[BACK](./05-Bash-Shell.md) | [NEXT](../02-Linux-Core-Konzepte/01-Der-Linux-Kernel.md)

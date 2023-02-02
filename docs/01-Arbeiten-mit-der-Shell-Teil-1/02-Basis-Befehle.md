@@ -1,4 +1,4 @@
-[HOME](../../README.md) | 01: Arbeiten mit der Shell - Teil 1 | 01: Grundlegende Linux-Befehle
+[HOME](../../README.md) | 01: Arbeiten mit der Shell - Teil 1 | 02: Grundlegende Linux-Befehle
 ---
 # Grundlegende Linux-Befehle
 
@@ -163,4 +163,5 @@ Zum Auflisten aller Dateien von der ältesten bis zur neuesten. Führen Sie den 
 ```
 $ ls -ltr
 ```
+---
 [BACK](./01-Einführung-in-die-Shell.md) | [NEXT](./03-Command-Line-Help.md)

@@ -1,3 +1,5 @@
+[HOME](../../README.md) | 01: Arbeiten mit der Shell - Teil 1 | 05: Bash-Shell
+---
 # Bash-Shell
 
 ## Verschiedene Arten von Shell
@@ -184,3 +186,5 @@ Um die Bash-Eingabeaufforderung so zu ändern, dass sie **`date`**, **`time`**, 
 ```
 $ PS1 = "[\d \t \u@\h:\w ] $ "
 ```
+---
+[BACK](./04-lab-working-with-shell.md) | [NEXT](./06-Lab-Linux-Bash-Shell.md)

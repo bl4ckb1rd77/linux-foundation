@@ -1,3 +1,5 @@
+[HOME](../../README.md) | 01: Arbeiten mit der Shell - Teil 1 | 03: Verwenden der Befehlszeile, um Hilfe zu erhalten
+---
 # Verwenden der Befehlszeile, um Hilfe zu erhalten
 
 In diesem Abschnitt lernen wir, wie man den Befehl **`help`** verwendet, um Hilfe in der Befehlszeile zu erhalten
@@ -33,3 +35,5 @@ Verwenden Sie **`apropos`**, um die Manpage-Namen und -Beschreibungen nach Insta
 ```
 $ apropos modpr
 ```
+---
+[BACK](./02-Basis-Befehle.md) | [NEXT](./04-lab-working-with-shell.md)
