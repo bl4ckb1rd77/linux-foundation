@@ -86,4 +86,4 @@ uptime is (/bin/uptime)
 ```
 
 ---
-[BACK](../../README.md) | [NEXT](./02-Basic-Befehle.md)
+[BACK](../../README.md) | [NEXT](./02-Basis-Befehle.md)
