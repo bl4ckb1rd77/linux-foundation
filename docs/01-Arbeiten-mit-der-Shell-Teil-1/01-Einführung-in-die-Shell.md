@@ -1,4 +1,4 @@
-[HOME](..\..\README.md)|01: Arbeiten mit der Shell - Teil 1|[01: Einführung in die Shell](01-Einführung-in-die-Shell.md)
+[HOME](../../README.md) | 01: Arbeiten mit der Shell - Teil 1 | 01: Einführung in die Shell
 ---
 
 # Arbeiten mit der Shell - Teil 1
@@ -86,4 +86,4 @@ uptime is (/bin/uptime)
 ```
 
 ---
-[BACK](..\..\README.md) | [NEXT](02-Basic-Befehle.md)
+[BACK](../../README.md) | [NEXT](./02-Basic-Befehle.md)
