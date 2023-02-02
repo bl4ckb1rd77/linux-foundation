@@ -24,11 +24,11 @@ $chsh
 
 1. Bash unterstützt die automatische Vervollständigung von Befehlen. Dies bedeutet, dass bash Befehle für Sie automatisch vervollständigt, wenn Sie einen Teil davon eingeben und die **`Tab`**-Taste drücken
     ```bash
-    [~]$ ls Docu
+    [~]$ ls /etc/pas
     ````
     Tab Taste drücken
     ```bash
-    [~]$ ls Documents
+    [~]$ ls /etc/passwd
     ```
 1. In Bash können wir benutzerdefinierte Aliase für die eigentlichen Befehle festlegen
     ```bash

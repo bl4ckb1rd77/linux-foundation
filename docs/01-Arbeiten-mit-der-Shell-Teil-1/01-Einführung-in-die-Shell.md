@@ -1,3 +1,6 @@
+[HOME](..\..\README.md)|01: Arbeiten mit der Shell - Teil 1|[01: Einführung in die Shell](01-Einführung-in-die-Shell.md)
+---
+
 # Arbeiten mit der Shell - Teil 1
 
 #### Linux Shell
@@ -13,7 +16,7 @@
  - Die Linux-Shell ist ein Programm, das eine textbasierte Interaktion zwischen dem Benutzer und dem Betriebssystem ermöglicht. Diese Interaktion wird ausgeführt, indem Befehle in die Schnittstelle eingegeben und die Antwort auf die gleiche Weise empfangen werden.
  - Die Linux-Shell ist ein leistungsstarkes Tool, mit dem Sie zwischen verschiedenen Orten innerhalb des Systems navigieren können. Wenn Sie sich jedoch bei der Shell anmelden, ist das allererste Verzeichnis, in das Sie gelangen, Ihr Home-Verzeichnis.
 
-#### The Home Directory
+#### Das Home Verzeichnis
 
 ![homedir](../../images/The_Home_Directory.JPG)
 
@@ -40,7 +43,7 @@
 - Wenn ein Befehl ausgeführt wird, führt er ein Programm aus, um eine bestimmte Aufgabe zu erfüllen.
    - **`Zum Beispiel`**: Der Befehl **`echo`** wird verwendet, um eine Textzeile auf dem Bildschirm zu drucken.
   ```
-                          $ echo
+  $ echo
   ```
 - Ein Argument fungiert als Eingabe für einen Befehl
    - **`Zum Beispiel`**: Um eine **`Hallo`**-Nachricht zu drucken, geben Sie den Befehl **`echo hello`** ein.
@@ -81,3 +84,6 @@ echo is a shell built-in
 [~]$ type uptime
 uptime is (/bin/uptime)
 ```
+
+---
+[BACK](..\..\README.md) | [NEXT](02-Basic-Befehle.md)
