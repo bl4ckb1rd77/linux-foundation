@@ -23,8 +23,8 @@ $ man date
 Mehrere Befehle stellen **`-h`** oder **`--help`** bereit, um Benutzern die in einem Befehl verfügbaren Optionen und Anwendungsfälle bereitzustellen
 
 ```
-$ date -h
-$ date --help
+$ uptime -h
+$ uptime --help
 ```
 
 Verwenden Sie **`apropos`**, um die Manpage-Namen und -Beschreibungen nach Instanzen des Schlüsselworts zu durchsuchen. Dies ist nützlich, wenn Sie nach allen Befehlen innerhalb des Systems suchen möchten, die das bestimmte Schlüsselwort enthalten.

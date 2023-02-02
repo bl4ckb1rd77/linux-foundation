@@ -134,27 +134,27 @@ $ touch /home/michael/Asia/China/Country.txt
 
 Um den Inhalt einer Datei scrollbar anzuzeigen. Führen Sie den Befehl **`more /path/to/filename`** aus <-- nicht empfohlen für große Dateien
 ```
-$ mehr neue_datei.txt
+$ less Country.txt
 ```
 
 Um den Inhalt einer Datei anzuzeigen und durch die Datei zu navigieren. Führen Sie den Befehl **`less /path/to/filename`** aus
 ```
-$ weniger neue_datei.txt
+$ less neue_datei.txt
 ```
 
 Um die lange Liste von Dateien und Verzeichnissen zu erhalten. Führen Sie den Befehl **`ls -l`** aus
 ```
-$ls-l
+$ls -l
 ```
 
 Um alle Dateien einschließlich der versteckten aufzulisten. Führen Sie den Befehl **`ls -la`** aus
 ```
-$ls-a
+$ls -a
 ```
 
 Listet alle Dateien in der Reihenfolge auf, in der sie geändert wurden. Führen Sie den Befehl **`ls -lt`** aus
 ```
-$ls-lt
+$ls -lt
 ```
 
 Zum Auflisten aller Dateien von der ältesten bis zur neuesten. Führen Sie den Befehl **`ls -ltr`** aus

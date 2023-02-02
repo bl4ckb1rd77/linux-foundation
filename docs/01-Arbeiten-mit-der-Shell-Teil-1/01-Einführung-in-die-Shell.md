@@ -74,7 +74,7 @@ Um festzustellen, ob ein Befehl intern oder extern ist, verwenden Sie den Befehl
 
 ```bash
 [~]$ type echo
-echo us a shell built-in
+echo is a shell built-in
 ```
 
 ```bash
