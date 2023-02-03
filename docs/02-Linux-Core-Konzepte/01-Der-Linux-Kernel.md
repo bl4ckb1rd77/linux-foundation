@@ -1,6 +1,8 @@
+[HOME](../../README.md) | 02: Linux Core Konzepte | 01: Der Linux Kernel
+---
 # Linux Core Konzepte
 
-## Linux Kernel
+## Der Linux Kernel
 
 #### Wenn Sie mit irgendeinem Betriebssystem gearbeitet haben, ist Ihnen der Begriff Kernel begegnet.
 
@@ -60,3 +62,5 @@ Alle Benutzerprogramme funktionieren, indem sie Daten manipulieren, die im Speic
 - Wenn Sie beispielsweise eine Datei wie **`/etc/os-release`** öffnen, um das installierte Betriebssystem anzuzeigen, führt dies zu einem **`Systemaufruf`**
 
    ![user-space1](../../images/user-space1.PNG)
+---
+[BACK](../01-Arbeiten-mit-der-Shell-Teil-1/06-Lab-Linux-Bash-Shell.md) | [NEXT](./02-Arbeiten-mit-der-Hardware.md)
