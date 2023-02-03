@@ -54,4 +54,4 @@ In diesem Abschnitt betrachten wir den Bootvorgang vereinfacht, indem wir ihn in
   $ ls -l /sbin/init
   ```
 ---
-[BACK](./04-Lab-Linux-Kernel.md) | [NEXT](./05-Runlevels.md)
+[BACK](./03-Lab-Linux-Kernel.md) | [NEXT](./05-Runlevels.md)
