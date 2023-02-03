@@ -20,7 +20,6 @@
   - [05: Runlevels](docs/02-Linux-Core-Konzepte/05-Runlevels.md)
   - [06: Filetypen](docs/02-Linux-Core-Konzepte/06-Filetypen.md)
   - [07: Filesystem Hierarchie](docs/02-Linux-Core-Konzepte/08-Filesystem-Hierarchie.md)
-  - [08: Lab-Linux-RunLevels-Filesystem-Hierarchie](docs/02-Linux-Core-Konzepte/08-Lab-Linux-RunLevels-Filesystem-Hierarchie.md)
 
 <!--
 - [03-Package-Mangement](docs/04-Package-Mangement)
