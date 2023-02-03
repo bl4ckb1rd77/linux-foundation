@@ -1,3 +1,5 @@
+[HOME](../../README.md) | 02: Linux Core Konzepte | 03: Lab Linux Kernel
+---
 # Lab - Linux-Kernel
 
 Um die genaue Kernel-Version zu überprüfen, die in diesem System ausgeführt wird.
@@ -38,3 +40,5 @@ Zum Überprüfen des gesamten Online-Speichers
 Führen Sie den Befehl lsmem aus und suchen Sie nach dem Wert des Online-Speichers
 $lsmem
 ```
+---
+[BACK](./02-Arbeiten-mit-der-Hardware.md) | [NEXT](./04-Linux-Boot-Sequenz.md)

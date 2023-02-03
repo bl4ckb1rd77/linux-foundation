@@ -1,4 +1,6 @@
-# Arbeiten mit Hardware
+[HOME](../../README.md) | 02: Linux Core Konzepte | 02: Arbeiten mit der Hardware
+---
+# Arbeiten mit der Hardware
 
 In diesem Abschnitt werden wir uns ansehen, wie Linux mit den für das System verfügbaren Hardwareressourcen arbeitet und wie Kernelmodule verwendet werden.
 - Wir werden uns ansehen, wie Linux an das System angeschlossene Hardwaregeräte identifiziert und verwaltet.
@@ -67,3 +69,5 @@ $ lshw
 ```
 $ sudo lshw
 ```
+---
+[BACK](./01-Der-Linux-Kernel.md) | [NEXT](./03-Lab-Linux-Kernel.md)

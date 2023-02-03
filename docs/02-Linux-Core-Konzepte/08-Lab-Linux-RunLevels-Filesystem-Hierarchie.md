@@ -1,3 +1,5 @@
+[HOME](../../README.md) | 02: Linux Core Konzepte | 08: Lab - Linux Runlevels und Dateisystemhierarchie
+---
 # Lab - Linux Runlevels und Dateisystemhierarchie
 
 Zum Ausführen von Befehlen, die **`sudo`**(Superuser)-Berechtigungen benötigen. Führen Sie **`sudo`** aus
@@ -45,3 +47,5 @@ Wie lautet der Name des **`Anbieters`** für den **`Ethernet-Controller`**, der 
 Verwenden Sie: sudo lshw und suchen Sie den Anbieter für den Ethernet-Controller im Netzwerkabschnitt.
 $ sudo lshw
 ```
+---
+[BACK](./07-Filesystem-Hierarchie.md)

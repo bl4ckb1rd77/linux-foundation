@@ -1,3 +1,5 @@
+[HOME](../../README.md) | 02: Linux Core Konzepte | 04: Linux Boot Sequenz
+---
 # Linux-Boot-Sequenz
 
 In diesem Abschnitt betrachten wir den Bootvorgang vereinfacht, indem wir ihn in vier größere Schritte unterteilen.
@@ -51,3 +53,5 @@ In diesem Abschnitt betrachten wir den Bootvorgang vereinfacht, indem wir ihn in
   ```
   $ ls -l /sbin/init
   ```
+---
+[BACK](./04-Lab-Linux-Kernel.md) | [NEXT](./05-Runlevels.md)

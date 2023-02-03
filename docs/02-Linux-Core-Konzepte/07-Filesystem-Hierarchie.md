@@ -1,3 +1,5 @@
+[HOME](../../README.md) | 02: Linux Core Konzepte | 07: Dateisystemhierarchie
+---
 # Dateisystemhierarchie
 
 In diesem Abschnitt werfen wir einen Blick auf die **`Dateisystemhierarchie`**
@@ -20,3 +22,5 @@ In diesem Abschnitt werfen wir einen Blick auf die **`Dateisystemhierarchie`**
   ```
   $ df-hP
   ```
+---
+[BACK](./06-Filetypen.md) | [NEXT](./08-Lab-Linux-RunLevels-Filesystem-Hierarchie.md)

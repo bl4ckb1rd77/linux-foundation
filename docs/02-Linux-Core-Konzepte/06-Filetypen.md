@@ -1,3 +1,5 @@
+[HOME](../../README.md) | 02: Linux Core Konzepte | 06: Dateitypen unter Linux
+---
 # Dateitypen unter Linux
 
 In diesem Abschnitt werfen wir einen Blick auf verschiedene Dateitypen unter Linux.
@@ -46,3 +48,5 @@ ls -ld /home/michael
 ls -l bash-script.sh
 ```
 ![Dateitypen2](../../images/file-types2.PNG)
+---
+[BACK](./05-Runlevels.md) | [NEXT](./07-Filesystem-Hierarchie.md)
