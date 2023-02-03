@@ -1,8 +1,5 @@
-Notizen
+### Notizen
 
-virtuelle machinen mit ubuntu 22.04
-
-Pulsar als tar.gz linux x86_64 auf dem testsystemen unter /opt/ speichern und entpacken
-benutzer bob, michael und so weiter anlegen
-
-socket datei erstellen / kopieren für file type beispiel
+- erstellen von Vorlagen für Virtual Box und VmWare
+- Anpassen der Images (ampada Logo)
+- weitere Übersetzungen der noch fehlenden Kapitel
