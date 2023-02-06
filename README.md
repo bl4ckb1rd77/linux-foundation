@@ -21,16 +21,16 @@
   - [06: Filetypen](docs/02-Linux-Core-Konzepte/06-Filetypen.md)
   - [07: Filesystem Hierarchie](docs/02-Linux-Core-Konzepte/08-Filesystem-Hierarchie.md)
 
+- 03: Packet-Mangement
+
+  - [01: Packet-Management-Distribution](docs/03-Package-Mangement/01-Package-Management-Distribution.md)
+  - [02: RPM-und-YUM](docs/03-Packet-Mangement/02-RPM-und-YUM.md)
+  - [03: Lab-RPM-und-YUM](docs/03-Packet-Mangement/03-Lab-RPM-und-YUM.md)
+  - [04: DPKG-und-APT](docs/03-Packet-Mangement/04-DPKG-und-APT.md)
+  - [05: APT-vs-APT-GET](docs/03-Packet-Mangement/05-APT-vs-APT-GET.md)
+  - [06: Lab-DPKG-und-APT](docs/03-Packet-Mangement/06-Lab-DPKG-und-APT.md)
+
 <!--
-- [03-Package-Mangement](docs/04-Package-Mangement)
-
-  - [01-Package-Management-Distribution](docs/04-Package-Mangement/01-Package-Management-Distribution.md)
-  - [02-RPM-and-YUM](docs/04-Package-Mangement/02-RPM-and-YUM.md)
-  - [03-Lab-RPM-and-YUM](docs/04-Package-Mangement/03-Lab-RPM-and-YUM.md)
-  - [04-DPKG-AND-APT](docs/04-Package-Mangement/04-DPKG-AND-APT.md)
-  - [05-APT-vs-APT-GET](docs/04-Package-Mangement/05-APT-vs-APT-GET.md)
-  - [06-Lab-DPKG-AND-APT](docs/04-Package-Mangement/06-Lab-DPKG-AND-APT.md)
-
 
 - [05-Working-With-Shell-Part-II](docs/05-Working-With-Shell-Part-II)
 
