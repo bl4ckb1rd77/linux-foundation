@@ -1,6 +1,6 @@
-[HOME](../../README.md) | 03: Packet Management | 02: RPM und YUM
+[HOME](../../README.md) | 03: Paket Management | 02: RPM und YUM
 ---
-# RPM und YUM Packet Manager
+# RPM und YUM Paket Manager
 
 In diesem Abschnitt werden wir uns die Paketmanager **`RPM`** und **`YUM`** im Detail ansehen.
 - RPM
@@ -86,4 +86,4 @@ Um alle Pakete im System zu aktualisieren, verwenden Sie den Befehl **`yum updat
 $ yum update
 ```
 ---
-[BACK](./01-Packet-Management-Distributionen.md) | [NEXT](./03-Lab-RPM-und-YUM.md)
+[BACK](./01-Paket-Management-Distributionen.md) | [NEXT](./03-Lab-RPM-und-YUM.md)

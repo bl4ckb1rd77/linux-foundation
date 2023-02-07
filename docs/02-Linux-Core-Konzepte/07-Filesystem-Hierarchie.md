@@ -23,4 +23,4 @@ In diesem Abschnitt werfen wir einen Blick auf die **`Dateisystemhierarchie`**
   $ df-hP
   ```
 ---
-[BACK](./06-Filetypen.md) | [NEXT](../03-Packet-Mangement/01-Packet-Management-Distributionen.md)
+[BACK](./06-Filetypen.md) | [NEXT](../03-Paket-Mangement/01-Paket-Management-Distributionen.md)
