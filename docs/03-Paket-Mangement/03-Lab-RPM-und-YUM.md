@@ -1,4 +1,4 @@
-[HOME](../../README.md) | 03: Packet Management | 03: Lab RPM und YUM
+[HOME](../../README.md) | 03: Paket Management | 03: Lab RPM und YUM
 ---
 # Lab - RPM and YUM
 

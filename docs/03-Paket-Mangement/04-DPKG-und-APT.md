@@ -1,3 +1,5 @@
+[HOME](../../README.md) | 03: Paket Management | 04: DPKG und APT
+---
 # DPKG- und APT-Paketmanager
 
 In diesem Abschnitt betrachten wir Debian-Paketmanager für Distributionen wie **`Ubuntu`**, **`Debian`** und **`PureOS`**.
@@ -84,3 +86,5 @@ Um alle installierten Pakete anzuzeigen
 ```
 $ apt list --installed
 ```
+---
+[BACK](./03-Lab-RPM-und-YUM.md) | [NEXT](./05-APT-vs-APT-GET.md)
