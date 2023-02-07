@@ -1,35 +1,35 @@
+[HOME](../../README.md) | 03: Packet Management | 03: Lab RPM und YUM
+---
 # Lab - RPM and YUM
 
-- Access Hands-On Labs here [Hands-On Labs](https://kodekloud.com/topic/lab-yum-and-rpm/)
-
-Which package managers would you use on centos machine
+Welche Paketmanager würden Sie auf der Rocky-Maschine verwenden?
 ```
-Centos makes use of RPM and YUM
+Rocky verwendet RPM and YUM
 ```
 
-Use an **`rpm`** command and find out the exact package name for **`wget`** installed in this server
+Verwenden Sie einen **`rpm`**-Befehl und finden Sie den genauen Paketnamen für **`wget`** heraus, das auf diesem Server installiert ist
 ```
 $ rpm -qa |grep wget
 ```
 
-To install a package for **`firefox`** browser that has been downloaded under **`/home/bob`** in the system. Caution: It might fail due to failed dependencies
+So installieren Sie ein Paket für den **`firefox`**-Browser, das unter **`/home/bob`** im System heruntergeladen wurde. Achtung: Es kann aufgrund fehlgeschlagener Abhängigkeiten fehlschlagen
 ```
 $ sudo rpm -ivh /home/bob/firefox-68.6.0-1.el7.centos.x86_64.rpm
 ```
 
-To install a package for **`firefox`** browser along with its dependencies
+So installieren Sie ein Paket für den **`firefox`**-Browser zusammen mit seinen Abhängigkeiten
 ```
 $ sudo yum install firefox -y
 ```
 
-To check how many software repositories are configured for YUM in the system
+Um zu überprüfen, wie viele Software-Repositories für YUM im System konfiguriert sind
 ```
 $ sudo yum repolist
 ```
 
-To check which package provides **`tcpdump`**  command
+Um zu überprüfen, welches Paket den Befehl **`tcpdump`** bereitstellt
 ```
 $ sudo yum provides tcpdump
 ```
-
-
+---
+[BACK](./02-RPM-und-YUM.md) | [NEXT](./04-DPKG-und-APT.md)
