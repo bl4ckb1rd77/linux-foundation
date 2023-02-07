@@ -34,14 +34,14 @@ Listet alle im System konfigurierten PCI-Geräte (Peripheral Component Interconn
 ```
 $lspci
 ```
-    ![pci](../../images/pci.PNG)
+![pci](../../images/pci.PNG)
 
 
 So listen Sie Informationen zu **`Geräten blockieren`** auf
 ```
 $ lsblk
 ```
-    ![Block-Gerät](../../images/Block-Gerät.PNG)
+![Block-Gerät](../../images/block-device.PNG)
 
 
 Zum Anzeigen von Detailinformationen über die **`CPU`** wie CPU-Architektur, CPU-Betriebsmodi (32 Bit, 64 Bit) usw.
@@ -56,7 +56,7 @@ $ lsmem --Zusammenfassung
 
 Ein weiterer alternativer Befehl, um die Informationen über den Speicher anzuzeigen. Dieser Befehl listet den gesamten belegten und freien Speicher auf.
 ```
-$ frei -m
+$ free -m
 ```
 
 Um Detailinformationen über die gesamten Hardwareinformationen der Maschine zu extrahieren

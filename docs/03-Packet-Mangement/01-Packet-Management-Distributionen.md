@@ -1,48 +1,48 @@
-# Package Management Distribution
+# Paketverwaltungsverteilung
 
-In this section, we will take a look at the Linux Package Management tools used in different linux distribution
-- Will start with introduction to the package management.
+In diesem Abschnitt werfen wir einen Blick auf die Linux-Paketverwaltungstools, die in verschiedenen Linux-Distributionen verwendet werden
+- Beginnt mit der Einführung in die Paketverwaltung.
 
-## Introduction to Package Managers
+## Einführung in Paketmanager
 
-For **`Debain/Ubuntu`**, it is **`apt/dpkg`** and for Rocky/Redhat, it is **`RPM`**
+Für **`Debain/Ubuntu`** ist es **`apt/dpkg`** und für Rocky/Redhat ist es **`RPM`**
 
-![package-managers](../../images/package-managers.PNG)
+![Paket-Manager](../../images/paket-managers.PNG)
 
-**Question** : What is the difference between **`Rocky`**, **`RHEL`** and **`Ubuntu`***?
-- There are hundreds of Linux distributions in use today
+**Frage** : Was ist der Unterschied zwischen **`Rocky`**, **`RHEL`** und **`Ubuntu`***?
+- Heutzutage werden Hunderte von Linux-Distributionen verwendet
 
-One of the common ways to catagorize linux distribution is by the package manager it uses.
-- For example: Distributions such as **`RHEL`**, **`Fedora`** and **`Rocky`**. are based on RPM. Hence they are known as **`RPM`** based distribution. The **`Debian`** family including **`Ubuntu`**, **`Debian`** and **`Linux Mint`** e.t.c. make use of **`Debian`** based package managers such as the **`DPKG`**.
+Eine der üblichen Methoden zur Kategorisierung von Linux-Distributionen ist der verwendete Paketmanager.
+- Zum Beispiel: Distributionen wie **`RHEL`**, **`Fedora`** und **`Rocky`**. basieren auf der Drehzahl. Daher sind sie als **`RPM`**-basierte Verteilung bekannt. Die **`Debian`**-Familie einschließlich **`Ubuntu`**, **`Debian`** und **`Linux Mint`** usw. Verwenden Sie **`Debian`**-basierte Paketmanager wie das **`DPKG`**.
 
 ![deb-rpm](../../images/deb-rpm.PNG)
 
-#### Now, Lets compare **`RHEL`** and **`Rocky`** Operating Systems.
+#### Vergleichen wir nun die Betriebssysteme **`RHEL`** und **`Rocky`**.
 
-![rhel-centos](../../images/rhel-Rocky.PNG)
+![rhel-rocky](../../images/rhel-rocky.PNG)
 
-#### What is a package?
-- A package in its simplest defination is a compressed archieve that contains all the files that are required by a particular software to run.
-- For example: Lets consider an Ubuntu System, we want to install a simple editing system such as **`gimp`** which stands for **` GNU Image Manipulation System`**. To do this, we can make use of the **`gimp.deb`** package which contains all the software binaries and files needed to for the image editor to run along with the metadata which provides the information about the software itself.
+#### Was ist ein Paket?
+- Ein Paket in seiner einfachsten Definition ist ein komprimiertes Archiv, das alle Dateien enthält, die von einer bestimmten Software zum Ausführen benötigt werden.
+- Zum Beispiel: Betrachten wir ein Ubuntu-System, wir möchten ein einfaches Bearbeitungssystem wie **`vim`** installieren, was für **`Vi IMproved`** steht. Dazu können wir das Paket [**`vim.deb`**](http://ports.ubuntu.com/pool/main/v/vim/vim_8.2.3995-1ubuntu2_arm64.deb) verwenden, das alle Software-Binärdateien und -Dateien enthält, die zum Ausführen des Bildeditors benötigt werden, zusammen mit den Metadaten, die die Informationen über die Software selbst liefern.
 
-![package](../../images/package.PNG)
+![Paket](../../images/Paket.PNG)
 
-#### Thats seems to be a quite easy process, why don't we do all the time? download a package and install it on a linux servers. Wondering the need of package managers?
-- There are hundreds of linux distributions are there, these distributions runs different sets of tools and libraries, software and possibly even different linux kernels as a result of this a linux program may not run the same way from one system to another. To fix this problem packages include a manifest of dependencies or list of programs in versions that must be satified for the package software to run correctly on a given computer.
-- Take a look at the errors in the installation while attempting to install **`gimp.deb`** on this ubuntu 18.04 system, the dependencies failed as a result the installations failed. Bare in mind that each of these dependent packages may have dependencies of their own which makes package installation management a very tedious process. This is where a **`Package Manager`** comes into save the day.
+#### Das scheint ein ganz einfacher Prozess zu sein, warum machen wir das nicht die ganze Zeit? Laden Sie ein Paket herunter und installieren Sie es auf einem Linux-Server. Fragen Sie sich, was Paketmanager brauchen?
+- Es gibt Hunderte von Linux-Distributionen, diese Distributionen führen unterschiedliche Sätze von Tools und Bibliotheken, Software und möglicherweise sogar unterschiedliche Linux-Kernel aus, was dazu führt, dass ein Linux-Programm möglicherweise nicht auf die gleiche Weise von einem System zum anderen ausgeführt wird. Um dieses Problem zu beheben, enthalten Pakete ein Manifest von Abhängigkeiten oder eine Liste von Programmen in Versionen, die erfüllt sein müssen, damit die Paketsoftware auf einem bestimmten Computer ordnungsgemäß ausgeführt wird.
+- Sehen Sie sich die Fehler in der Installation an, während Sie versuchen, **`vim.deb`** auf diesem Ubuntu 22.04-System zu installieren. Die Abhängigkeiten sind fehlgeschlagen, da die Installationen fehlgeschlagen sind. Denken Sie daran, dass jedes dieser abhängigen Pakete eigene Abhängigkeiten haben kann, was die Paketinstallationsverwaltung zu einem sehr langwierigen Prozess macht. Hier kommt ein **`Package Manager`** ins Spiel.
 
-  ![package-errors](../../images/package-errors.PNG)
+   ![Paketfehler](../../images/Paketfehler.PNG)
 
-#### A package manager is a software in a linux system that provides the consistent and automated process in installing, upgrading, configuring and removing packages from the operating system.
+#### Ein Paketmanager ist eine Software in einem Linux-System, die den konsistenten und automatisierten Prozess zum Installieren, Aktualisieren, Konfigurieren und Entfernen von Paketen aus dem Betriebssystem bereitstellt.
 
 ![pkg-mgr](../../images/pkg-mgr.PNG)
 
-## Functions of Package Manager
+## Funktionen des Paketmanagers
 
-![functions-of-pkg](../../images/functions-of-pkg.PNG)
+![Funktionen-des-Pakets](../../images/Funktionen-des-Pakets.PNG)
 
-## Types of Package Managers
+## Arten von Paketmanagern
 
-A Linux distribution supports different types of package managers, some of the common ones are below
+Eine Linux-Distribution unterstützt verschiedene Arten von Paketmanagern, einige der gebräuchlichsten sind unten aufgeführt
 
-![types-of-pkg](../../images/types-of-pkg.PNG)
+![Pakettypen](../../images/Pakettypen.PNG)
