@@ -23,7 +23,7 @@
 
 - 03: Packet-Mangement
 
-  - [01: Packet-Management-Distribution](docs/03-Package-Mangement/01-Package-Management-Distributionen.md)
+  - [01: Packet-Management-Distribution](docs/03-Packet-Mangement/01-Packet-Management-Distributionen.md)
   - [02: RPM-und-YUM](docs/03-Packet-Mangement/02-RPM-und-YUM.md)
   - [03: Lab-RPM-und-YUM](docs/03-Packet-Mangement/03-Lab-RPM-und-YUM.md)
   - [04: DPKG-und-APT](docs/03-Packet-Mangement/04-DPKG-und-APT.md)

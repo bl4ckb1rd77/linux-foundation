@@ -86,4 +86,4 @@ Um alle Pakete im System zu aktualisieren, verwenden Sie den Befehl **`yum updat
 $ yum update
 ```
 ---
-[BACK](./1-Packet-Management-Distributionen.md) | [NEXT](./03-Lab-RPM-und-YUM.md)
+[BACK](./01-Packet-Management-Distributionen.md) | [NEXT](./03-Lab-RPM-und-YUM.md)
