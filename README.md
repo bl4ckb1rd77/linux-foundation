@@ -19,7 +19,7 @@
   - [04: Linux Boot Sequenz](docs/02-Linux-Core-Konzepte/04-Linux-Boot-Sequenz.md)
   - [05: Runlevels](docs/02-Linux-Core-Konzepte/05-Runlevels.md)
   - [06: Filetypen](docs/02-Linux-Core-Konzepte/06-Filetypen.md)
-  - [07: Filesystem Hierarchie](docs/02-Linux-Core-Konzepte/08-Filesystem-Hierarchie.md)
+  - [07: Filesystem Hierarchie](docs/02-Linux-Core-Konzepte/07-Filesystem-Hierarchie.md)
 
 - 03: Packet-Mangement
 
