@@ -1,101 +1,89 @@
-# RPM and YUM Package Managers
+[HOME](../../README.md) | 03: Packet Management | 02: RPM und YUM
+---
+# RPM und YUM Packet Manager
 
-- Take me to the [Video Tutorial](https://kodekloud.com/topic/rpm-and-yum/)
-
-In this section, we will take a look at **`RPM`** and **`YUM`** package managers in detail.
+In diesem Abschnitt werden wir uns die Paketmanager **`RPM`** und **`YUM`** im Detail ansehen.
 - RPM
 - YUM
 
 ## RPM (Redhat Package Manager)
 
-This package manager is used in RHEL as well as other linux distributions but these are the most common ones. The File extensions for packages manage by RPM is **`.RPM`**
+Dieser Paketmanager wird sowohl in RHEL als auch in anderen Linux-Distributionen verwendet, aber dies sind die häufigsten. Die Dateierweiterung für von RPM verwaltete Pakete ist **`.RPM`**
 
 ![rpm](../../images/rpm.PNG)
 
-#### Working with RPM
+#### Arbeiten mit RPM
 
-RPM has five basic modes of operations. Each of these modes can be run using **`rpm`** command followed by a specific command **`options`**. Despite of this, RPM doesn't resolve dependencies on its own. This is why we make use of a higher level of package manager called **`YUM`**.
+RPM hat fünf grundlegende Betriebsmodi. Jeder dieser Modi kann mit dem Befehl **`rpm`** gefolgt von einem bestimmten Befehl **`options`** ausgeführt werden. Trotzdem löst RPM Abhängigkeiten nicht selbst auf. Aus diesem Grund verwenden wir eine höhere Ebene des Paketmanagers namens **`YUM`**.
 1. Installing
 1. Uninstalling
 1. Upgrade
 1. Query
 1. Verfiying
 
-   ![rpm-modes](../../images/rpm-modes.PNG)
+![rpm-modes](../../images/rpm-modes.PNG)
 
 ## YUM (Yellowdog Updater Modifier)
 
-YUM is a free and opensource package manager.
-- Works on RPM based Linux systems
-- Works with Software repositories which are essentially a collection of packages and provides package independency management on RPM based distro. The repository information is stored in **`/etc/yum.repos.d/`** and repository files will have the **`.repo`** extension.
-- Acts as a high level package manager but under the hood it still depeneds on **`RPM`** to manage packages on the linux systems.
-- Unlike RPM, YUM handles package dependencies very well (Automatic Dependency Resolution). It is able to install any dependencies packages to get the base package install on the linux system.
+YUM ist ein kostenloser Open-Source-Paketmanager.
+- Funktioniert auf RPM-basierten Linux-Systemen
+- Arbeitet mit Software-Repositories, die im Wesentlichen eine Sammlung von Paketen sind, und bietet Paketunabhängigkeitsverwaltung auf RPM-basierten Distributionen. Die Repository-Informationen werden in **`/etc/yum.repos.d/`** gespeichert und Repository-Dateien haben die Erweiterung **`.repo`**.
+- Fungiert als High-Level-Paketmanager, aber unter der Haube hängt es immer noch von **`RPM`** ab, um Pakete auf den Linux-Systemen zu verwalten.
+- Im Gegensatz zu RPM handhabt YUM Paketabhängigkeiten sehr gut (Automatic Dependency Resolution). Es ist in der Lage, alle Abhängigkeitspakete zu installieren, um das Basispaket auf dem Linux-System zu installieren.
 
-  ![yum](../../images/yum.PNG)
-  
-#### Let us see how YUM installs a package.
+![yum](../../images/yum.PNG)
+
+#### Schauen wir uns an, wie YUM ein Paket installiert.
 
 ![yum-repo](../../images/yum-repo.PNG)
 
-#### Now, lets take a look at sequence of steps envolve while installing the package.
-- Once yum runs **`yum install`** command is issued YUM first runs transaction check, if the package is not installed in the system yum checks the configured repositories under **`/etc/yum.repos.d/`** for the availability of the requested package. 
-- It also checks if there are any dependent packages are already installed in the system or if it needs to be upgrade.
+#### Werfen wir nun einen Blick auf die Abfolge der Schritte, die während der Installation des Pakets ausgeführt werden.
+- Sobald yum ausgeführt wird, wird der Befehl **`yum install`** ausgegeben, YUM führt zuerst eine Transaktionsprüfung durch, wenn das Paket nicht im System installiert ist, überprüft yum die konfigurierten Repositories unter **`/etc/yum.repos.d/`* * für die Verfügbarkeit des angeforderten Pakets.
+- Es prüft auch, ob abhängige Pakete bereits im System installiert sind oder ob ein Upgrade erforderlich ist.
 
-  ![yum-cmd](../../images/yum-cmd.PNG)
-  
-- After this step, transaction summary is displayed on the screen for the user to review, if we wish to proceed with the install enter the **`y`** button (this step can be skipped by providing the **`-y`** flag with the **`yum install`** command).
-- Yum will download and install necessary RPMs to linux system
+![yum-cmd](../../images/yum-cmd.PNG)
 
-  ![yum-cmd1](../../images/yum-cmd1.PNG)
-  
+- Nach diesem Schritt wird die Transaktionszusammenfassung auf dem Bildschirm angezeigt, damit der Benutzer sie überprüfen kann. Wenn wir mit der Installation fortfahren möchten, geben Sie die Schaltfläche **`y`** ein (dieser Schritt kann übersprungen werden, indem Sie das **`-y `**-Flag mit dem Befehl **`yum install`**).
+- Yum lädt die erforderlichen RPMs herunter und installiert sie auf dem Linux-System
 
-If you want to update a single package, use **`yum update`** command. If the package is already in the latest version in the repository and hence no action will be taken
+![yum-cmd1](../../images/yum-cmd1.PNG)
+
+Wenn Sie ein einzelnes Paket aktualisieren möchten, verwenden Sie den Befehl **`yum update`**. Wenn sich das Paket bereits in der neuesten Version im Repository befindet und daher keine Aktion ausgeführt wird
 
 ![yum-update](../../images/yum-update.PNG)
 
+#### Allgemeine Befehle
 
-#### Common Commands
-
-To list all the repos added to your system. Run **`yum repolist`**
+Um alle Repos aufzulisten, die Ihrem System hinzugefügt wurden. Führen Sie **`yum repolist`** aus
 ```
 $ yum repolist
 ```
 
-To check which package should be installed for specific command to work. Use **`yum provides`** command followed by <command> name.
+Um zu überprüfen, welches Paket installiert werden sollte, damit ein bestimmter Befehl funktioniert. Verwenden Sie den Befehl **`yum provided`** gefolgt von <Befehl> name.
 ```
 $ yum provides scp
 ```
 
-To Install a package
+So installieren Sie ein Paket
 ```
 $ yum install httpd
 ```
 
-To Install a package to automatically answer "yes" to any question prompt during the operation. Use **`-y`** flag with the **`yum install`** command.
+Um ein Paket zu installieren, wird jede Frage während des Vorgangs automatisch mit „Ja“ beantwortet. Verwenden Sie das Flag **`-y`** mit dem Befehl **`yum install`**.
 ```
 $ yum install httpd -y
 ```
-
-To remove a package
+So entfernen Sie ein Paket
 ```
 $ yum remove httpd
 ```
-
-To update a package
+Um ein Paket zu aktualisieren
 ```
 $ yum update telnet
 ```
-
-To update all packages in the system, use the **`yum update`** command without any arguments.
+Um alle Pakete im System zu aktualisieren, verwenden Sie den Befehl **`yum update`** ohne Argumente.
 ```
 $ yum update
 ```
-
-
-
-
-
-  
-
-
-
+---
+[BACK](./1-Packet-Management-Distribution.md) | [NEXT](./03-Lab-RPM-und-YUM.md)

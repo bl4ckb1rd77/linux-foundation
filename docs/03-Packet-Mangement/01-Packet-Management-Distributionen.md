@@ -1,3 +1,5 @@
+[HOME](../../README.md) | 03: Packet Management | 01: Packet Management Distributionen
+---
 # Paketverwaltungsverteilung
 
 In diesem Abschnitt werfen wir einen Blick auf die Linux-Paketverwaltungstools, die in verschiedenen Linux-Distributionen verwendet werden
@@ -46,3 +48,5 @@ Eine der üblichen Methoden zur Kategorisierung von Linux-Distributionen ist der
 Eine Linux-Distribution unterstützt verschiedene Arten von Paketmanagern, einige der gebräuchlichsten sind unten aufgeführt
 
 ![Pakettypen](../../images/Pakettypen.PNG)
+---
+[BACK](../02-Linux-Core-Konzepre/07-Filesystem-Hierarchie.md) | [NEXT](./02-RPM-und-YUM.md)
