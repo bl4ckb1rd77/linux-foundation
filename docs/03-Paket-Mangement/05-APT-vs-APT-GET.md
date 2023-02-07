@@ -35,5 +35,6 @@ $ agc = apt -y autoclean
 Oder die freie Software Nala, welche optisch sehr an YUM erinnert, jedoch für Apt den vorteil beitet, das die Repositories sowie die einzelnen Pakete nicht Sequentiel sondern parallel heruntergeladen werden, wodurch zeit gespaart werden kann, sowie eine History der installierten Pakete.
 
 (https://gitlab.com/volian/nala)
+![Nala](../../images/nala-install-1.png)
 ---
 [BACK](./04-DPKG-und-APT.md)
