@@ -1,23 +1,39 @@
-# APT vs APT-GET
+[HOME](../../README.md) | 03: Paket Management | 05: APT vs APT-GET
+---
+# APT gegen APT-GET
 
-- Take me to the [Video Tutorial](https://kodekloud.com/topic/apt-vs-apt-get/)
+#### Unterschied zwischen APT und APT-GET
+- APT ist im Vergleich zu APT-GET ein benutzerfreundlicheres Tool
+- In allen aktuellen Debian-basierten Distributionen ist APT bereits standardmäßig installiert.
 
-#### Difference between APT vs APT-GET
-- APT is a more user friendly tool when compared to APT-GET
-- In all the latest debian based distros APT is already installed by default.
+#### Schauen wir uns an, warum **`APT`** im Vergleich zu **`APT-GET`** besser ist
 
-#### Lets take a look why **`APT`** is better when compare to **`APT-GET`**
+Versuchen wir, das Paket **`firefox`** mit APT und APT-GET zu installieren
+- Sie werden feststellen, dass APT die Augen schont, Sie erhalten gerade genug Informationen und auch einen netten kleinen Fortschrittsbalken
+- APT-GET ist nur effektiv und liefert die Ausgabe nicht in einem benutzerfreundlichen Format.
 
-Lets try to install **`firefox`** package using both APT and APT-GET
-- You will notice APT does easy on the eyes, you get just enough information and also a nice little progress bar
-- APT-GET is just effective and doesn't provide the output in user-friendly format.
+![apt-vs-apt-get](../../images/apt-vs-apt-get.PNG)
 
-  ![apt-vs-apt-get](../../images/apt-vs-apt-get.PNG)
- 
-Lets try another comparision by search a **`telent`** package.
-- You will notice with apt, all its options are located in one place. You can search with **`apt search telnet`** command.
-- On the other hand, you cannot use search command with **`apt-get`** command. Instead, you have to use another tool called **`apt-cache search telnet`**.
-- If you compare the results of the two commands, you will also see the **`apt-cache`** throws in a lot of extra information in the search result, which may not be really useful for the end user.
+Lassen Sie uns einen anderen Vergleich versuchen, indem wir ein **`telent`**-Paket suchen.
+- Sie werden feststellen, dass sich bei apt alle Optionen an einem Ort befinden. Sie können mit dem Befehl **`apt search telnet`** suchen.
+- Andererseits können Sie den Suchbefehl nicht mit dem Befehl **`apt-get`** verwenden. Stattdessen müssen Sie ein anderes Tool namens **`apt-cache search telnet`** verwenden.
+- Wenn Sie die Ergebnisse der beiden Befehle vergleichen, werden Sie auch sehen, dass der **`apt-cache`** viele zusätzliche Informationen in das Suchergebnis einwirft, die für den Endbenutzer möglicherweise nicht wirklich nützlich sind.
 
-  ![apt-vs-apt-get1](../../images/apt-vs-apt-get1.PNG)
- 
+![apt-vs-apt-get1](../../images/apt-vs-apt-get1.PNG)
+
+#### Wrapper für Apt
+
+Mittlerweile existieren auch sogenannte Wrapper für Apt, welche eine bessere Benutzererfahrung und ein leichteres Handling für Apt bereitstellen.
+
+In der Shell ZSH wird ein Module bereit gestellt welches die arbeit mit APT erleichtern soll.
+```
+$ aguu = apt -y update; apt -y upgrade
+$ agar = apt -y autoremove
+$ agc = apt -y autoclean
+```
+
+Oder die freie Software Nala, welche optisch sehr an YUM erinnert, jedoch für Apt den vorteil beitet, das die Repositories sowie die einzelnen Pakete nicht Sequentiel sondern parallel heruntergeladen werden, wodurch zeit gespaart werden kann, sowie eine History der installierten Pakete.
+
+(https://gitlab.com/volian/nala)
+---
+[BACK](./04-DPKG-und-APT.md)
