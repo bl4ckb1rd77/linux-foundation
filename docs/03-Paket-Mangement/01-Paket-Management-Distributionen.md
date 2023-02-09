@@ -9,7 +9,7 @@ In diesem Abschnitt werfen wir einen Blick auf die Linux-Paketverwaltungstools, 
 
 Für **`Debain/Ubuntu`** ist es **`apt/dpkg`** und für Rocky/Redhat ist es **`RPM`**
 
-![Paket-Manager](../../images/Paket-managers.PNG)
+![Paket-Manager](../../images/paket-managers.PNG)
 
 **Frage** : Was ist der Unterschied zwischen **`Rocky`**, **`RHEL`** und **`Ubuntu`***?
 - Heutzutage werden Hunderte von Linux-Distributionen verwendet
